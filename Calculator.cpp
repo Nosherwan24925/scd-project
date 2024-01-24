@@ -30,3 +30,13 @@ int main()
 
 return 0;
 }
+long Calculator::Division(long x, long y)
+{
+    if (y == 0)
+    {
+        cout << "Error: Division by zero is undefined." << endl;
+        return 0; // You may choose a different way to handle division by zero, such as throwing an exception.
+    }
+
+    return x / y;
+}
