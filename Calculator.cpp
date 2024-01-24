@@ -29,8 +29,27 @@ long Calculator::Subtraction(long x, long y) {
 	return x - y;
 }
 
+long Calculator::Multiplication(long x,long y)
+{
+    return x*y;
+}
+
 int main()
 {
+
+
+    Calculator cal;
+
+
+
+    cout<<"Addition of 3 and 5 is : "<<cal.Addition(3,5)<<endl;
+    
+    cout<<"Multiplication of 3 and 5 is : "<<cal.Multiplication(3,5)<<endl;
+    
+    cout<<"Division of 3 and 5 is : "<<cal.Division(3,5)<<endl;
+    
+    cout<<"Subtration of 3 and 5 is : "<<cal.Subtraction(3,5)<<endl;
+
 
 return 0;
 }
