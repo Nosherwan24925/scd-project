@@ -20,7 +20,10 @@ Calculator::Calculator()
     number1=0;
     number2=0;
 }
+long Calculator::Addition(long x,long y){
 
+    return x+y;
+}
 
 int main()
 {
