@@ -15,6 +15,12 @@ long Multiplication(long x,long y);
 long Division(long x,long y);
 };
 
+Calculator::Calculator()
+{
+    number1=0;
+    number2=0;
+}
+
 
 int main()
 {
