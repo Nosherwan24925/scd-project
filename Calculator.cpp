@@ -24,6 +24,10 @@ long Calculator::Addition(long x,long y){
 
     return x+y;
 }
+long Calculator::Subtraction(long x, long y) {
+
+	return x - y;
+}
 
 int main()
 {
